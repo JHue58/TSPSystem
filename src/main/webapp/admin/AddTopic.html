@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加课题信息</title>
+</head>
+<body>
+
+<form action="AddTopic" method="post">
+    课题名称：<input name="name" type="text"><br/>
+    课题性质：<br/>
+    <input name="properties" type="radio" value="A">产品性质<br/>
+    <input name="properties" type="radio" value="B">工程技术研究<br/>
+    <input name="properties" type="radio" value="C">软件开发<br/>
+    <input name="properties" type="radio" value="D">研究论文或调研报告<br/>
+    <input name="properties" type="radio" value="E">其他<br/>
+    课题来源：<br/>
+    <input name="source" type="radio" value="A">自然（社会）科学基金与省（部）、市级以上科研课题<br/>
+    <input name="source" type="radio" value="B">企、事业单位委托课题<br/>
+    <input name="source" type="radio" value="C">院、系级基金课题<br/>
+    <input name="source" type="radio" value="D">自拟课题<br/>
+    预计工作量：<select name="workload">
+    <option value="0">---请选择---</option>
+    >
+    <option value="1">小</option>
+    <option value="2">适中</option>
+    <option value="3">大</option>
+</select><br/>
+    难易度：<select name="level">
+    <option value="0">---请选择---</option>
+    >
+    <option value="1">小</option>
+    <option value="2">适中</option>
+    <option value="3">大</option>
+</select><br/>
+    课题简介：<textarea name="description"></textarea><br/>
+    课题任务和对学生的要求：<textarea name="mission"></textarea><br/>
+    <input type="submit" value="添加"/>
+</form>
+
+</body>
+</html>
