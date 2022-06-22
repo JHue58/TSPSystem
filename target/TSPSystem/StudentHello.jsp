@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>欢迎${sessionScope.student.name}同学</title>
+    <title>欢迎${sessionScope.student.name}同学</title>
 </head>
 <body>
 <h3>欢迎您！${sessionScope.student.name}同学</h3>

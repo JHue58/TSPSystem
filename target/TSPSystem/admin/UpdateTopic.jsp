@@ -26,13 +26,15 @@
     <input type="radio" name="source" value="C" ${topic.source eq "C"?"checked":""}>院、系级基金课题<br/>
     <input type="radio" name="source" value="D" ${topic.source eq "D"?"checked":""}>自拟课题<br/>
     预计工作量：<select name="workload">
-    <option value="0" ${topic.workload eq "0"?"selected":""}>---请选择---</option>>
+    <option value="0" ${topic.workload eq "0"?"selected":""}>---请选择---</option>
+    >
     <option value="1" ${topic.workload eq "1"?"selected":""}>小</option>
     <option value="2" ${topic.workload eq "2"?"selected":""}>适中</option>
     <option value="3" ${topic.workload eq "3"?"selected":""}>大</option>
 </select><br/>
     难易度：<select name="level">
-    <option value="0" ${topic.level eq "0"?"selected":""}>---请选择---</option>>
+    <option value="0" ${topic.level eq "0"?"selected":""}>---请选择---</option>
+    >
     <option value="1" ${topic.level eq "1"?"selected":""}>小</option>
     <option value="2" ${topic.level eq "2"?"selected":""}>适中</option>
     <option value="3" ${topic.level eq "3"?"selected":""}>大</option>

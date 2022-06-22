@@ -21,7 +21,8 @@
     性别：<input type="radio" name="sex" value="1" ${teacher.sex?"checked":""}/>男
     <input type="radio" name="sex" value="0" ${teacher.sex?"":"checked"}/>女<br/>
     学历：<select name="edu">
-    <option value="0">---请选择---</option>>
+    <option value="0">---请选择---</option>
+    >
     <option value="1" ${teacher.edu eq "1"?"selected":""}>本科</option>
     <option value="2" ${teacher.edu eq "2"?"selected":""}>研究生</option>
     <option value="3" ${teacher.edu eq "3"?"selected":""}>博士</option>

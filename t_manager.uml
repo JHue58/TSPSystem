@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>86794501-227c-43e3-9299-fcde24660a26.TABLE:sts.t_manager</OriginalElement>
+  <nodes>
+    <node x="0.0" y="285.0">86794501-227c-43e3-9299-fcde24660a26.TABLE:sts.t_student</node>
+    <node x="204.0" y="285.0">86794501-227c-43e3-9299-fcde24660a26.TABLE:sts.t_manager</node>
+    <node x="214.0" y="0.0">86794501-227c-43e3-9299-fcde24660a26.TABLE:sts.t_teacher</node>
+    <node x="0.0" y="0.0">86794501-227c-43e3-9299-fcde24660a26.TABLE:sts.t_topic</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="分层" zoom="0.8256302521008403" showDependencies="false" x="186.5" y="228.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>列</Category>
+    <Category>虚拟外键</Category>
+    <Category>键列</Category>
+  </Categories>
+</Diagram>
+

@@ -22,7 +22,9 @@
             border-bottom: 1px solid #333333;
             border-left: 1px solid #CCCCCC;
         }
-        table { text-align: center;
+
+        table {
+            text-align: center;
 
         }
     </style>
@@ -37,7 +39,9 @@
         <tr>
             <td>${topic.name}</td>
             <td>${topic.description}</td>
-            <<td>${topic.student == -1? "<a href='TopicDisplay?id=".concat(topic.id).concat("'}>查看</a>"):"已被选"}</td>>
+            <
+            <td>${topic.student == -1? "<a href='TopicDisplay?id=".concat(topic.id).concat("'}>查看</a>"):"已被选"}</td>
+            >
         </tr>
     </c:forEach>
 

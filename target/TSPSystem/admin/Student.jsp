@@ -22,7 +22,9 @@
             border-bottom: 1px solid #333333;
             border-left: 1px solid #CCCCCC;
         }
-        table { text-align: center;
+
+        table {
+            text-align: center;
 
         }
     </style>
